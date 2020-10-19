@@ -1,0 +1,22 @@
+swagger: '2.0'
+info:
+  title: gcp-demo-api
+  description: Sample GraphQL API on API Gateway with a Cloud Run backend
+  version: 1.0.0
+schemes:
+  - https
+produces:
+  - application/json
+paths:
+  /:
+    post:
+      summary: GraphQL endpoint
+      operationId: gql
+      x-google-backend:
+        address: https://PROJECT_AND_RANDOM_STRING.a.run.app/graphql  # App URL/endpoint
+        jwt_audience: LONG_RANDOM_STRING.apps.googleusercontent.com # IAP client ID
+      responses:
+        '200':
+          description: A successful response
+          schema:
+            type: object
