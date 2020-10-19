@@ -1,6 +1,6 @@
 # Demo: GCP API Gateway fronting a GraphQL API on Cloud Run, secured with Identity-Aware Proxy
 
-This demo is based on the [official Google quickstart for API Gateway fronting a Cloud Run instance](https://cloud.google.com/api-gateway/docs/get-started-cloud-run). Lovingly repurposed from Google <3 for the benefit of all.
+This demo is based on the [official Google quickstart for API Gateway fronting a Cloud Run instance](https://cloud.google.com/api-gateway/docs/get-started-cloud-run). Lovingly repurposed from Google with <3 for the benefit of all.
 
 The application itself is based on previous work on [cloud-run-ts-apollo-graphql](https://github.com/mikaelvesavuori/cloud-run-ts-apollo-graphql).
 
