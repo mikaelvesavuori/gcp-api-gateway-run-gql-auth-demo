@@ -29,7 +29,7 @@ Install dependencies, then run `npm start` to use `ts-node` to run your code.
 
 ## References
 
-- [Getting started with API Gateway and App Engine](https://cloud.google.com/api-gateway/docs/get-started-cloud-run)
+- [Getting started with API Gateway and Cloud Run](https://cloud.google.com/api-gateway/docs/get-started-cloud-run)
 - [Quickstart: Manage access with Google Accounts](https://cloud.google.com/iap/docs/app-engine-quickstart#enabling_iap)
 - [gcloud services](https://cloud.google.com/sdk/gcloud/reference/services)
 - [Swagger / OpenAPI Specification version 2](https://swagger.io/docs/specification/2-0/basic-structure/)
